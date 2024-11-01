@@ -1,0 +1,453 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+:root{
+    --PrimaryColor: #000;
+    --SecondaryColor: #ffe81f;
+    --HoverColor: #2e579e;
+    --FontColor: #ddb27f;
+}
+body{
+    background: url(../Imagen/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+    background-position-x: 60px;
+    background-attachment: fixed;
+    height: 100vh;
+}
+main{
+    position: absolute;
+    top: 65px;
+    left: 100px;
+    width: 50%;
+    height: 88.8%;
+    border: 1px solid var(--SecondaryColor);
+    background-color: var(--PrimaryColor);
+    border-radius: 25px;
+    color: var(--FontColor);
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-flow: column wrap;
+}
+main .Peliculas{
+    height: 205px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+main .Peliculas::-webkit-scrollbar{
+    display: none;
+}
+main .Peliculas article h2{
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-style: italic;
+    padding-left: 15px;
+}
+main .Peliculas article:nth-child(1){
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-right: 30px;
+    border-radius: 15px;
+    border-bottom: 2px solid var(--HoverColor);
+}
+main .Peliculas article:nth-child(1) svg{
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Peliculas article:nth-child(1) svg:hover{
+    padding: 1.5px;
+}
+main .Peliculas article:nth-child(1) div{
+    margin: 2px;
+    display: flex;
+    gap: 15px;
+    margin-left: 450px;
+}
+main .Peliculas article:nth-child(2){
+    height: 125px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    border-left: 2px solid var(--HoverColor);
+    border-bottom: 2px solid var(--HoverColor);
+    border-radius: 25px;
+    padding-left: 5px;
+}
+MAIN .Peliculas article:nth-child(2)::-webkit-scrollbar{
+    display: none;
+}
+main .Peliculas article:nth-child(2) div{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 3px;
+    text-align: center;
+}
+main .Peliculas article:nth-child(2) div img{
+    width: 146px;
+    border-radius: 10px;
+    border: 2px solid var(--FontColor);
+    transition: .1s linear;
+}
+main .Peliculas article:nth-child(2) div img:hover{
+    padding: 5px;
+    border: 2px solid var(--HoverColor);
+    cursor: pointer;
+}
+main .Peliculas article:nth-child(2) div p{
+    letter-spacing: 1px;
+    font-size: 0.9em;
+}
+main .History{
+    width: 95%;
+    height: 215px;
+    padding: 5px;
+    display: flex;
+    gap: 15px;
+    margin-top: 0;
+    position: relative;
+    top: -20px;
+}
+main .History article{
+    border-bottom: 1px solid var(--HoverColor);
+    border-top: 1px solid var(--HoverColor);
+    width: 220px;
+    height: 220px;
+    text-wrap: pretty;
+    padding: 5px;
+    border-radius: 15px;
+}
+main .History article h2{
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 0px 0px 3px var(--PrimaryColor);
+    font-style: italic;
+    margin-bottom: 5px;
+}
+main .History article p{
+    text-align: justify;
+    font-size: 1em;
+}
+main .History article p::first-letter{
+    font-size: 1.2em;
+    color: var(--HoverColor);
+}
+main .Personajes{
+    width: 92%;
+    height: 80px;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    top: 10px;
+}
+main .Personajes article:nth-child(1){
+    width: 145px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+main .Personajes article:nth-child(1) div{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+main .Personajes article h2{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+main .Personajes article:nth-child(2){
+    width: 100%;
+    height: 80px;
+    border-left: 2px solid var(--HoverColor);
+    border-bottom: 2px solid var(--HoverColor);
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Personajes article:nth-child(2)::-webkit-scrollbar{
+    display: none;
+}
+main .Personajes article img{
+    width: 76px;
+    border-radius: 35px;
+    text-align: center;
+    border: 2px solid var(--FontColor);
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Personajes article:nth-child(2) div img:hover{
+    border: 2px solid var(--HoverColor);
+    padding: 5px;
+}
+/*Dialog*/
+dialog{
+    width: 80%;
+    height: 120%;
+    position: relative;
+    left: 35px;
+    top: -12px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: var(--PrimaryColor);
+    color: var(--FontColor);
+    border: 2px solid var(--SecondaryColor);
+    outline: none;
+}
+
+dialog[open]{
+    animation: openModal 0.9s forwards;
+}
+/* Animación para abrir el modal */
+@keyframes openModal {
+    0% {
+      transform: scale(0.7);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+}
+dialog span{
+    font-size: 1.5em;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    cursor: pointer;
+    transition: .1s linear;
+}
+
+dialog span:hover{
+    padding: 0.5px;
+    border-radius: 5px;
+    background-color: var(--HoverColor);
+    color: #fff;
+    box-shadow: 0 0 5px var(--FontColor);
+}
+dialog .Imagen{
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 260px;
+    width: 220px;
+    padding: 5px;
+    border-radius: 15px;
+}
+dialog .Imagen img{
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 55px;
+    border: 2px solid var(--FontColor);
+    margin-bottom: 15px;
+}
+dialog .Imagen h3{
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+dialog .Descripción--personajes{
+    width: 275px;
+    height: 260px;
+    position: absolute;
+    left: 240px;
+    top: 35px;
+    padding: 5px;
+    border-radius: 15px;
+}
+dialog .Descripción--personajes p{
+    font-size: 1.2em;
+    text-align: justify;
+    text-wrap: pretty;
+}
+dialog .Descripción--personajes p::first-letter{
+    font-size: 1.3em;
+    color: var(--HoverColor);
+}
+dialog .Sables{
+    margin: 10px 12px 0 12px;
+    text-align: left;
+    padding: 5px;
+    height: 205px;
+    border-radius: 15px;
+}
+dialog .Sables h2{
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    padding-left: 2px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--HoverColor);
+    margin: 0 15px 10px 10px;
+}
+dialog .Sables div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    gap: 25px;
+}
+dialog .Sables .Sable{
+    width: 130px;
+    height: 160px;
+    border-radius: 15px;
+}
+dialog .Sables .Sable img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px var(--SecondaryColor);
+    transition: .1s linear;
+}
+dialog .Sables .Sable:nth-child(1) img:hover{
+    box-shadow: 0 0 20px #0ae;
+    cursor: pointer;
+}
+dialog .Sables .Sable:nth-child(2) img:hover{
+    box-shadow: 0 0 20px #6e0;
+    cursor: pointer;
+}
+dialog .Sables .Sable:nth-child(3) img:hover{
+    box-shadow: 0 0 20px #e30;
+    cursor: pointer;
+}
+dialog .Sables .Sable:nth-child(4) img:hover{
+    box-shadow: 0 0 20px #aaa;
+    cursor: pointer
+}
+dialog .Sables .Sable:nth-child(5) img:hover{
+    box-shadow: 0 0 20px var(--SecondaryColor);
+    cursor: pointer;
+}
+dialog .Sables .Sable:nth-child(6) img:hover{
+    box-sizing: 0 0 20px #aaa;
+    cursor: pointer
+}
+dialog .Sables .Sable:nth-child(7) img:hover{
+    box-shadow: 0 0 20px #aaa;
+    cursor: pointer;
+}
+dialog .Title-Imagen{
+    padding: 5px;
+    border-radius: 15px;
+    margin: 10px 5px 0 5px;
+    border-bottom: 2px solid var(--HoverColor);
+}
+dialog .Title-Imagen img{
+    width: 70%;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 2px solid var(--FontColor);
+    transition: .1s linear;
+}
+dialog .Title-Imagen img:hover{
+    box-shadow: 0 0 5px var(--HoverColor);
+    cursor: pointer;
+}
+dialog .Title-Imagen h3{
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    font-style: italic;
+}
+dialog .Descripcion{
+    margin-top: 10px;
+    width: 450px;
+    position: relative;
+    left: 35px;
+    text-align: justify;
+    padding: 2px;
+}
+dialog .Descripcion p{
+    font-size: 1.1em;
+    text-wrap: pretty;
+    letter-spacing: 1px;
+}
+dialog .Descripcion p::first-letter{
+    font-size: 1.2em;
+    color: var(--HoverColor);
+}
+dialog .Personajes--pelicula{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+    left: 35px;
+    padding: 2px;
+    margin-top: 5px;
+}
+dialog .Personajes--pelicula div h3{
+    margin-top: 3px;
+    margin-right: 10px;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    padding-left: 5px;
+}
+dialog .Personajes--pelicula div .iconos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+dialog .Personajes--pelicula div .iconos svg{
+    cursor: pointer;
+}
+dialog .Person{
+    width: 80%;
+    padding: 10px;
+    border-left: 2px solid var(--HoverColor);
+    border-bottom: 2px solid var(--HoverColor);
+    border-radius: 15px; 
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+dialog .Person::-webkit-scrollbar{
+    display: none;
+}
+dialog .Person .Personajes--Imagen{
+    display: flex;
+    align-items: center;
+}
+dialog .Person .Personajes--Imagen img{
+    width: 70px;
+    border-radius: 35px;
+    text-align: center;
+    border: 2px solid var(--FontColor);
+    cursor: pointer;
+    transition: .1s linear;
+}
+dialog .Person .Personajes--Imagen img:hover{
+    border: 2px solid var(--HoverColor);
+    padding: 5px;
+}

@@ -1,0 +1,286 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+:root{
+    --PrimaryColor: #000;
+    --SecondaryColor: #ffe81f;
+    --HoverColor: #2e579e;
+    --FontColor: #ddb27f;
+}
+body{
+    background: url(../Imagen/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+    background-position-x: 60px;
+    background-attachment: fixed;
+    height: 100vh;
+}
+main{
+    position: absolute;
+    top: 70px;
+    left: 105px;
+    border: 1px solid var(--FontColor);
+    width: 90%;
+    height: 85%;
+    background-color: var(--PrimaryColor);
+    border-radius: 35px;
+    padding: 10px;
+    display: flex;
+    color: var(--FontColor);
+    gap: 10px;
+}
+main .Content--section{
+    
+    width: 385px;
+    height: 510px;
+    color: var(--FontColor);
+    padding: 10px;
+}
+main .Content--section article{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
+main .Content--section article img{
+    border: 1px solid #fff;
+    width: 95%;
+    border-radius: 25px;
+    border: 2px solid var(--FontColor);
+    transition: .1s linear;
+}
+main .Content--section article img:hover{
+    box-shadow: 0 0 15px #ac2723;
+}
+main .Content--section article h2{
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+main .Content--section article p{
+    font-size: 1em;
+    text-align: justify;
+    padding: 0 10px;
+    letter-spacing: 1px;
+}
+main .Content--History{
+    border-bottom: 2px solid var(--HoverColor);
+    border-left: 2px solid var(--HoverColor);
+    border-radius: 35px;
+    color: var(--FontColor);
+    width: 820px;
+    padding: 15px;
+    height: 335px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+}
+main .Content--History h3{
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    text-align: left;
+    font-style: italic;
+}
+main .Content--History p{
+    font-size: 1em;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+main .Content--History .Separador--botones{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+main .Content--History .Separador--botones ul{
+    list-style: none;
+    margin-top: 2px;
+}
+main .Content--History .Separador--botones span{
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+main .Content--History .Separador--botones ul li{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+main .Content--Images{
+    position: absolute;
+    top: 360px;
+    left: 405px;
+    width: 66.2%;
+    height: 27.5%;
+    padding: 10px;
+    border-bottom: 2px solid var(--HoverColor);
+    border-left: 2px solid var(--HoverColor);
+    border-radius: 35px;
+}
+main .Content--Images h3{
+    font-size: 1.3em;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+main .Content--Images article:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+main .Content--Images article:nth-child(1) div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+main .Content--Images article:nth-child(1) div svg{
+    cursor: pointer;
+}
+main .Content--Images article:nth-child(2){
+    margin-top: 5px;
+    height: 105px;
+    padding: 2px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main .Content--Images article:nth-child(2)::-webkit-scrollbar{
+    display: none;
+}
+main .Content--Images article:nth-child(2) img{
+    width: 86px;
+    height: 86px;
+    border: 2px solid var(--FontColor);
+    border-radius: 35px;
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Content--Images article:nth-child(2) img:hover{
+    padding: 5px;
+    border: 2px solid var(--HoverColor)
+}
+/*Dialog de los personajes*/
+dialog{
+    width: 550px;
+    height: 410px;
+    padding: 15px;
+    position: absolute;
+    top: 95px;
+    left: 400px;
+    border: 2px solid var(--FontColor);
+    background-color: var(--PrimaryColor);
+    border-radius: 35px;
+    color: var(--FontColor);
+    gap: 10px;
+    outline: none;
+}
+dialog[open]{
+    animation: openModal 0.9s forwards;
+}
+/* Animación para abrir el modal */
+@keyframes openModal {
+    0% {
+      transform: scale(0.7);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+}
+dialog span{
+    position: absolute;
+    right: 18px;
+    top: 10px;
+    font-size: 1.4em;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: .1s linear;
+}
+dialog span:hover{
+    padding: 0.5px;
+    border-radius: 5px;
+    background-color: var(--HoverColor);
+    color: #fff;
+    box-shadow: 0 0 5px var(--FontColor); 
+}
+dialog .Content--dialog{
+    display: flex;
+    margin-left: 5px;
+    padding: 10px;
+    gap: 10px;
+}
+dialog .Content--dialog .Imagen--Personaje{
+    width: 320px;
+    height: 255px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+dialog .Content--dialog .Imagen--Personaje img{
+    width: 200px;
+    border: 2px solid var(--FontColor);
+    border-radius: 25px;
+    margin-bottom: 5px;
+    transition: .1s linear;
+}
+dialog .Content--dialog .Imagen--Personaje img:hover{
+    box-shadow: 0 0 15px var(--HoverColor);
+}
+dialog .Content--dialog .Imagen--Personaje h3{
+    font-size: 1.4em;
+    letter-spacing: 1px;
+}
+dialog .Content--dialog .Descripcion--personaje{
+    margin-top: 12px;
+    height: 250px;
+    padding: 5px;
+    border-bottom: 2px solid var(--HoverColor);
+    border-radius: 15px;
+}
+dialog .Content--dialog .Descripcion--personaje p{
+    font-size: 1.1em;
+    text-align: justify;
+    text-wrap: pretty;
+    letter-spacing: 0.5px;
+}
+dialog .Content--dialog .Descripcion--personaje p::first-letter{
+    font-size: 1.4em;
+    color: var(--HoverColor);
+}
+dialog .Content--dialog .Botones{
+    position: absolute;
+    top: 305px;
+    width: 290px;
+    left: 120px;
+    height: 60.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+dialog .Content--dialog .Botones button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid var(--FontColor);
+    background-color: var(--PrimaryColor);
+    color: var(--FontColor);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: .1s linear;
+
+}
+dialog .Content--dialog .Botones button:hover{
+    background-color: var(--HoverColor);
+    color: #fff;
+    box-shadow: 0 0 5px var(--FontColor);
+}

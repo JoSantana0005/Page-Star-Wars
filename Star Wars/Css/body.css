@@ -1,0 +1,23 @@
+:root{
+    --PrimaryColor: #000;
+    --SecondaryColor: #ffe81f;
+    --HoverColor: #2e579e;
+    --FontColor: #ddb27f;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 14px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://p4.wallpaperbetter.com/wallpaper/783/587/809/star-wars-death-star-science-fiction-wallpaper-preview.jpg');
+    background-position-x: center;
+    background-position-y: -50px;
+    color: var(--FontColor);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
