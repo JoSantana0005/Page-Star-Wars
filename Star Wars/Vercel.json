@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/star-wars",
-            "destination": "/star-wars/Page-VideoGame"
+            "source": "/(.*)",
+            "destination": "/"
         }
     ]
 }
