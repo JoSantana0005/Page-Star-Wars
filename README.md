@@ -1,6 +1,6 @@
 <h1>Page-Star-Wars</h1>
 <div align="center">
-  <img src="https://i.makeagif.com/media/5-27-2016/z24oyW.gif" width = 550px>
+  <img src="https://i.makeagif.com/media/5-27-2016/z24oyW.gif" width = 100%>
 </div>
 <h3>Plot:</h3>
 <table>
