@@ -1,8 +1,8 @@
-## Page-Star-Wars
+<h1>Page-Star-Wars</h1>
 <div align="center">
-  <img src="https://i.pinimg.com/originals/5b/a7/5c/5ba75c266690f77b3b0c468a47439c3d.gif" width = 80%>
+  <img src="https://i.pinimg.com/originals/5b/a7/5c/5ba75c266690f77b3b0c468a47439c3d.gif" width = 80% height = 20%>
 </div>
-## PLot
+<h3>Plot:</h3>
 <table>
   <td width = 50% align="justify">
     Star Wars is an epic science fiction saga that transports us to a galaxy far, far away, where humans and various alien species coexist. The story revolves around a        mystical force called the Force, which some beings can use to perform extraordinary feats.
