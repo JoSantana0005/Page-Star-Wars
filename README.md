@@ -1,5 +1,5 @@
 ## Page-Star-Wars
-<img src="https://i.pinimg.com/originals/5b/a7/5c/5ba75c266690f77b3b0c468a47439c3d.gif" width = 100% height = 30%>
+<img src="https://i.pinimg.com/originals/5b/a7/5c/5ba75c266690f77b3b0c468a47439c3d.gif" width = 50%>
 ### Plot
 <table>
   <td width = 50% align="justify">
@@ -7,6 +7,6 @@
     The main plot focuses on the fight between good and evil, represented by the Jedi, who use the Force to maintain peace and justice, and the Sith, who seek dominance       and absolute power through the dark side of the Force.
   </td>
   <td width="50%" align = "center">
-    <img src = "https://www.icegif.com/wp-content/uploads/2024/03/darth-vader-icegif-8.gif" width = 40%>
+    <img src = "https://www.icegif.com/wp-content/uploads/2024/03/darth-vader-icegif-8.gif" width = 100%>
   </td>
 </table>
