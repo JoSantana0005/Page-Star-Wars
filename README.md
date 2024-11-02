@@ -1,2 +1,2 @@
-### Page-Star-Wars
-This page is dedicated to giving an overview of the Star Wars saga, where characters, movies and games will be mentioned.
+## Page-Star-Wars
+<img src="https://i.makeagif.com/media/6-30-2015/FYo0cO.gif" width = 50%>
