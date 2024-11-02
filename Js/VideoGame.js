@@ -13,67 +13,67 @@ left.addEventListener('click',()=>{
 const Personajes_video = [
     {
         "Nombre": "Anakin Skywalker",
-        "Imagen":"../Imagen/episodio III/13.jpg",
+        "Imagen":"Imagen/episodio III/13.jpg",
         "Descripcion": "Anakin Skywalker, más tarde conocido como Darth Vader, es un personaje ficticio y el protagonista de la trilogía de precuelas de la serie de películas de Star Wars creada por George Lucas. Es interpretado por el actor Hayden Christensen en los episodios II y III de la saga."
     },
     {
         "Nombre": "Obi-Wan Kenobi",
-        "Imagen":"../Imagen/episodio III/14.jpg",
+        "Imagen":"Imagen/episodio III/14.jpg",
         "Descripcion": "Obi-Wan Kenobi es un personaje ficticio de la saga Star Wars. Es un maestro jedi que aparece en los episodios I, II y III de la serie de películas de Star Wars, interpretado por el actor Ewan McGregor."
     },
     {
         "Nombre": "Padmé Amidala",
-        "Imagen":"../Imagen/episodio III/15.jpg",
+        "Imagen":"Imagen/episodio III/15.jpg",
         "Descripcion": "Padmé Amidala es un personaje ficticio de la saga Star Wars. Es la Reina y luego Senadora de Naboo, y madre de Luke Skywalker y Leia Organa. Es interpretada por la actriz Natalie Portman en los episodios I, II y III de la serie de películas de Star Wars."
     },
     {
         "Nombre": "Canciller Palpatine",
-        "Imagen":"../Imagen/episodio III/16.jpg",
+        "Imagen":"Imagen/episodio III/16.jpg",
         "Descripcion": "Palpatine es un personaje ficticio de la saga Star Wars. Es un senador de Naboo que se convierte en Emperador de la galaxia y líder del Imperio Galáctico. Es interpretado por el actor Ian McDiarmid en los episodios I, II y III de la serie de películas de Star Wars."
     },
     {
         "Nombre": "General Grievous",
-        "Imagen":"../Imagen/episodio III/17.jpg",
+        "Imagen":"Imagen/episodio III/17.jpg",
         "Descripcion": "General Grievous es un personaje ficticio de la saga Star Wars. Es un general cyborg que aparece en los episodios II y III de la serie de películas de Star Wars."
     },
     {
         "Nombre": "R2-D2",
-        "Imagen":"../Imagen/episodio III/18.jpg",
+        "Imagen":"Imagen/episodio III/18.jpg",
         "Descripcion": "R2-D2 es un personaje ficticio de la saga Star Wars. Es un droide astromecánico que aparece en los episodios I, II y III de la serie de películas de Star Wars."
     },
     {
         "Nombre": "Mace Windu",
-        "Imagen":"../Imagen/episodio II/10.jpg",
+        "Imagen":"Imagen/episodio II/10.jpg",
         "Descripcion": "Mace Windu es un personaje ficticio de la saga Star Wars. Es un maestro jedi que aparece en los episodios I, II y III de la serie de películas de Star Wars."
     },
     {
         "Nombre": "Maestro Yoda",
-        "Imagen":"../Imagen/episodio II/12.jpg",
+        "Imagen":"Imagen/episodio II/12.jpg",
         "Descripcion": "Yoda es un personaje ficticio de la saga Star Wars. Es un maestro jedi que aparece en los episodios I, II y III de la serie de películas de Star Wars."
     },
     {
         "Nombre": "Comandante Cody",
-        "Imagen":"../Imagen/episodio III/19.jpg",
+        "Imagen":"Imagen/episodio III/19.jpg",
         "Descripcion": "Comandante Cody es un personaje ficticio de la saga Star Wars. Es un soldado clon que aparece en los episodios II y III de la serie de películas de Star Wars."
     },
     {
         "Nombre": "Chewbacca",
-        "Imagen":"../Imagen/episodio IV/24.jpg",
+        "Imagen":"Imagen/episodio IV/24.jpg",
         "Descripcion": "Chewbacca es un personaje ficticio de la saga Star Wars. Es un wookiee que aparece en los episodios II y III de la serie de películas de Star Wars."
     },
     {
         "Nombre": "Cp-390",
-        "Imagen": "../Imagen/episodio V/25.jpg",
+        "Imagen": "Imagen/episodio V/25.jpg",
         "Descripcion": "CP-390 es un personaje ficticio de la saga Star Wars. Es un droide de combate que aparece en los episodios II y III de la serie de películas de Star Wars."
     },
     {
         "Nombre": "Star Clone Trooper",
-        "Imagen":"../Imagen/episodio III/22.jpeg",
+        "Imagen":"Imagen/episodio III/22.jpeg",
         "Descripcion": "Star Clone Trooper es un personaje ficticio de la saga Star Wars. Es un soldado clon que aparece en los episodios II y III de la serie de películas de Star Wars."
     },
     {
         "Nombre": "Super Battle Droid",
-        "Imagen":"../Imagen/episodio III/23.jpeg",
+        "Imagen":"Imagen/episodio III/23.jpeg",
         "Descripcion": "Super Battle Droid es un personaje ficticio de la saga Star Wars. Es un droide de combate que aparece en los episodios II y III de la serie de películas de Star Wars."
     }
 

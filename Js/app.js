@@ -254,55 +254,55 @@ Cerrar.addEventListener('click',()=>{
 const Peliculas_Desc = [
     {
         "Name": "La Amenaza Fantasma",
-        "Imagen": "../Imagen/Peliculas/amenaza.png",
+        "Imagen": "Imagen/Peliculas/amenaza.png",
         "Content": "Es la cuarta película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita y dirigida por George Lucas y fue estrenada el 19 de mayo de 1999. La película es la primera entrega de la trilogía de precuelas de Star Wars y se sitúa 32 años antes de los eventos de la película original de 1977, Una nueva esperanza.",
         "Characters": ["../Imagen/episodio I/1.jpg","../Imagen/episodio I/2.jpg","../Imagen/episodio I/3.jpg","../Imagen/episodio I/4.jpeg","../Imagen/episodio I/5.jpeg", "../Imagen/episodio I/6.jpg"]
     },
     {
         "Name": "El Ataque de los clones",
-        "Imagen": "../Imagen/Peliculas/ataque.png",
+        "Imagen": "Imagen/Peliculas/ataque.png",
         "Content": "Es la quinta película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita y dirigida por George Lucas y fue estrenada el 16 de mayo de 2002. La película es la segunda entrega de la trilogía de precuelas de Star Wars y se sitúa 10 años después de los eventos de La amenaza fantasma.",
         "Characters": ["../Imagen/episodio II/7.jpg","../Imagen/episodio II/8.jpg","../Imagen/episodio II/9.jpg","../Imagen/episodio II/10.jpg","../Imagen/episodio II/11.jpg", "../Imagen/episodio II/12.jpg"]
     },
     {
         "Name": "La Venganza de los Sith",
-        "Imagen": "../Imagen/Peliculas/venganza.png",
+        "Imagen": "Imagen/Peliculas/venganza.png",
         "Content": "Es la sexta película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita y dirigida por George Lucas y fue estrenada el 19 de mayo de 2005. La película es la tercera entrega de la trilogía de precuelas de Star Wars y se sitúa 19 años antes de los eventos de la película original de 1977, Una nueva esperanza.",
         "Characters": ["../Imagen/episodio III/13.jpg","../Imagen/episodio III/14.jpg","../Imagen/episodio III/15.jpg","../Imagen/episodio III/16.jpg","../Imagen/episodio III/17.jpg", "../Imagen/episodio III/18.jpg"]
     },
     {
         "Name": "Una Nueva Esperanza",
-        "Imagen": "../Imagen/Peliculas/esperanza.png",
+        "Imagen": "Imagen/Peliculas/esperanza.png",
         "Content": "Es la primera película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita y dirigida por George Lucas y fue estrenada el 25 de mayo de 1977. La película es la cuarta entrega de la saga en términos de producción y fue la primera en ser estrenada. La película se sitúa 19 años después de los eventos de La venganza de los Sith.",
         "Characters": ["../Imagen/episodio IV/19.jpg","../Imagen/episodio IV/20.jpg","../Imagen/episodio IV/21.jpg","../Imagen/episodio IV/22.jpg","../Imagen/episodio IV/23.jpg", "../Imagen/episodio IV/24.jpg"]
     },  
     {
         "Name": "El Imperio Contrataca",
-        "Imagen": "../Imagen/Peliculas/imperio.jpg",
+        "Imagen": "Imagen/Peliculas/imperio.jpg",
         "Content": "Es la quinta película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita por Leigh Brackett y Lawrence Kasdan y dirigida por Irvin Kershner. Fue estrenada el 21 de mayo de 1980. La película es la quinta entrega de la saga en términos de producción y la segunda en ser estrenada. La película se sitúa tres años después de los eventos de Una nueva esperanza.",
         "Characters": ["../Imagen/episodio V/25.jpg","../Imagen/episodio IV/20.jpg","../Imagen/episodio IV/21.jpg","../Imagen/episodio IV/22.jpg","../Imagen/episodio II/12.jpg", "../Imagen/episodio IV/19.jpg"]
     },
     {
         "Name": "El Retorno del Jedi",
-        "Imagen": "../Imagen/Peliculas/regreso.png",
+        "Imagen": "Imagen/Peliculas/regreso.png",
         "Content": "Es la sexta película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita por Lawrence Kasdan y George Lucas y dirigida por Richard Marquand. Fue estrenada el 25 de mayo de 1983. La película es la sexta entrega de la saga en términos de producción y la tercera en ser estrenada. La película se sitúa un año después de los eventos de El Imperio Contraataca.",
         "Characters": ["../Imagen/episodio VI/31.jpg","../Imagen/episodio IV/22.jpg","../Imagen/episodio Iv/21.jpg","../Imagen/episodio VI/32.jpg","../Imagen/episodio IV/20.jpg", "../Imagen/episodio VI/33.jpg"]
     },
     {
         "Name": "El Despertar de la Fuerza",
-        "Imagen": "../Imagen/Peliculas/rey.jpeg",
+        "Imagen": "Imagen/Peliculas/rey.jpeg",
         "Content": "Es la séptima película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita por Lawrence Kasdan, J.J. Abrams y Michael Arndt y dirigida por J.J. Abrams. Fue estrenada el 18 de diciembre de 2015. La película es la séptima entrega de la saga en términos de producción y la primera de la trilogía de secuelas de Star Wars. La película se sitúa 30 años después de los eventos de El retorno del Jedi.",
         "Characters": ["../Imagen/episodio VII/34.jpg","../Imagen/episodio VII/35.jpg","../Imagen/episodio VII/36.jpg","../Imagen/episodio VII/37.jpg","../Imagen/episodio VII/38.jpg", "../Imagen/episodio VII/39.jpg"]
     },
     {
         "Name": "Los Ultimos Jedis",
-        "Imagen": "../Imagen/Peliculas/Ultimos.png",
+        "Imagen": "Imagen/Peliculas/Ultimos.png",
         "Content": "Es la octava película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita y dirigida por Rian Johnson y fue estrenada el 15 de diciembre de 2017. La película es la octava entrega de la saga en términos de producción y la segunda de la trilogía de secuelas de Star Wars. La película se sitúa inmediatamente después de los eventos de El despertar de la Fuerza.",
         "Characters": ["../Imagen/episodio VII/36.jpg","../Imagen/episodio VII/34.jpg","../Imagen/episodio VII/35.jpg","../Imagen/episodio VIII/40.jpg","../Imagen/episodio VII/37.jpg", "../Imagen/episodio VIII/41.jpg"]
     },
     {
         "Name": "El Ascenso de Skywalker",
-        "Imagen": "../Imagen/Peliculas/Ascenso.jpeg",
+        "Imagen": "Imagen/Peliculas/Ascenso.jpeg",
         "Content": "Es la novena película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita por J.J. Abrams y Chris Terrio y dirigida por J.J. Abrams. Fue estrenada el 20 de diciembre de 2019. La película es la novena entrega de la saga en términos de producción y la tercera de la trilogía de secuelas de Star Wars. La película se sitúa un año después de los eventos de Los últimos Jedi.",
         "Characters": ["../Imagen/episodio VII/36.jpg","../Imagen/episodio III/16.jpg","../Imagen/episodio VII/37.jpg","../Imagen/episodio VII/34.jpg","../Imagen/episodio III/13.jpg", "../Imagen/episodio III/14.jpg"]
     }
