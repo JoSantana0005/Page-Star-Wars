@@ -1,6 +1,6 @@
 <h1>Page-Star-Wars</h1>
 <div align="center">
-  <img src="https://i.pinimg.com/originals/5b/a7/5c/5ba75c266690f77b3b0c468a47439c3d.gif" width = 250px>
+  <img src="https://i.pinimg.com/originals/5b/a7/5c/5ba75c266690f77b3b0c468a47439c3d.gif" width = 550px>
 </div>
 <h3>Plot:</h3>
 <table>
