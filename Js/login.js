@@ -28,7 +28,7 @@ contraseña.addEventListener('input',()=>{
     }
 })
 //Evento de los botones
-const enlace = '../Page/Index.html';
+const enlace = '../index.html';
 let Ingresar = document.getElementById('Ingresar');
 let CrearCuenta = document.getElementById('Cuenta');
 let lista = [];
