@@ -93,8 +93,8 @@ main .Content--History p{
 }
 main .Content--History .Separador--botones{
     display: flex;
-    justify-content: space-between;
-    gap: 15px;
+    justify-content: space-evenly;
+    gap: 5px;
 }
 main .Content--History .Separador--botones ul{
     list-style: none;
@@ -276,6 +276,7 @@ dialog .Content--dialog .Botones button{
     border-radius: 25px;
     cursor: pointer;
     font-size: 1.2em;
+    outline: none;
     transition: .1s linear;
 
 }
